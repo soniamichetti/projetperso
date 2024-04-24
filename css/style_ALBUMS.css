@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.search-bar input {
+    padding: 7px 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    width: 220px;
+}
+.search-bar {
+    margin-top: 10px;
+    
+}
+
+@media screen and (max-width: 400px) {
+.search-bar input {
+    width: 100%; /* Full width search bar */
+}
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 120px;
+}
+.icons a img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen  and (max-width:400px) {
+    .icons a img{
+        width: 20px;
+    }
+}
+
+.bg-bisque {
+    background-color: #a56d86; /* Change to your desired background color */
+    border-bottom: 2px solid #fef7f7;
+}
+
+.main-content{
+    width: 100%;
+    height: 53vh;
+    background-color: #a56d86;
+}
+
+.nav-link{
+    margin-left: 50px;
+    text-align: center;
+    font-weight: bold;
+    color:  #fef7f7;
+}
+
+.content{
+    padding: 110px;
+}
+.content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fef7f7;
+    margin-left: 40px;
+   
+}
+@media screen  and (max-width:400px) {
+    .content h1{
+        font-size: 30px;
+    }
+}
+h2.centre{
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+}
+div.album_art{
+    float:left;
+    width:50%;
+    text-align: center;
+}
+
+img.alb_img{
+    width:400px;
+    height: 400px;
+}
+
+h4.nom_ART{
+    text-align: center;
+    font-family: Chalkduster, fantasy;
+}
+
+div.album_pres{
+    width:50%;
+}
+
+img.alb_cov{
+    float:left;
+}
